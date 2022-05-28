@@ -1,14 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T05:21:44.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="ESKL9LkDCw9OL1392PH3" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-28T05:31:15.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="6G8UrgiZFESCafuTrrDs" version="18.1.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2673" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2977" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="N8Ufnz0W6D04skS4zoCJ-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;specialty_board&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="90" width="140" height="40" as="geometry" />
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-88" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=12;" edge="1" parent="1" source="N8Ufnz0W6D04skS4zoCJ-1" target="N8Ufnz0W6D04skS4zoCJ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-89" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Ubuntu;" vertex="1" connectable="0" parent="N8Ufnz0W6D04skS4zoCJ-88">
+          <mxGeometry x="0.5111" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-1" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Ubuntu&quot; face=&quot;Ubuntu&quot;&gt;Doctor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="180" width="100" height="50" as="geometry" />
+          <mxGeometry x="-80" y="120" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-3" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Ubuntu&quot; face=&quot;Ubuntu&quot;&gt;Patient&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="510" width="100" height="50" as="geometry" />
@@ -26,19 +31,13 @@
           <mxGeometry x="-160" y="260" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;d_name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="210" width="70" height="30" as="geometry" />
+          <mxGeometry x="-50" y="265" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;dept_id&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="150" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="N8Ufnz0W6D04skS4zoCJ-12" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="160" y="150" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N8Ufnz0W6D04skS4zoCJ-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;specialty_board&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;container=1;" vertex="1" parent="N8Ufnz0W6D04skS4zoCJ-12">
-          <mxGeometry x="-220" y="-55" width="120" height="30" as="geometry" />
+          <mxGeometry x="-310" y="-100" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;d_email&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="100" width="70" height="30" as="geometry" />
+          <mxGeometry x="-260" y="220" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-14" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;udi_no&lt;/u&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="840" y="300" width="70" height="30" as="geometry" />
@@ -74,7 +73,7 @@
           <mxGeometry x="790" y="555" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="464" y="320" width="110" height="60" as="geometry" />
+          <mxGeometry x="470" y="320" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-31" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Ubuntu&quot; face=&quot;Ubuntu&quot;&gt;Operation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N8Ufnz0W6D04skS4zoCJ-32">
           <mxGeometry width="110" height="60" as="geometry" />
@@ -98,7 +97,7 @@
           <mxGeometry x="-35" y="610" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-38" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;d_mobile&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="140" width="70" height="30" as="geometry" />
+          <mxGeometry x="35" y="230" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;blood_grp&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-105" y="570" width="70" height="30" as="geometry" />
@@ -130,7 +129,7 @@
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-52" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;p_id&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="130" y="400" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N8Ufnz0W6D04skS4zoCJ-53" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;issue&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-53" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;reason&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="210" y="430" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-54" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ward_id&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
@@ -142,11 +141,83 @@
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-56" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;specialty_board&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="520" y="-20" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="N8Ufnz0W6D04skS4zoCJ-57" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;patients&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-57" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;nurses&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="530" y="-15" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8Ufnz0W6D04skS4zoCJ-58" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;p_id&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="360" y="370" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-59" value="&lt;font face=&quot;Ubuntu&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Intern&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-60" value="&lt;font face=&quot;Ubuntu&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Resident&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="-20" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-62" value="&lt;font face=&quot;Ubuntu&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Fellow&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;specialty_board&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;specialty_board&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;container=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-145" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-65" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ward_id&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-45" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-66" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ward_id&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=12;" edge="1" parent="1" source="N8Ufnz0W6D04skS4zoCJ-51" target="N8Ufnz0W6D04skS4zoCJ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-69" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;theatre_id&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="295" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-70" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Ubuntu&quot; face=&quot;Ubuntu&quot;&gt;Nurses&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-65" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-71" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;n_id&lt;/u&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-20" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-72" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;n_name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-73" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;n_email&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-145" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-74" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;n_mobile&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-105" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-77" value="&lt;font face=&quot;Ubuntu&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Theatres&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-78" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;location&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-79" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;city&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-80" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;theatre_id&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-406" y="390" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-81" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;dept_id&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="450" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-82" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;specialty_board&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-284" y="490" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-83" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;equipments&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;container=1;" vertex="1" parent="1">
+          <mxGeometry x="-274" y="495" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-85" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;pincode&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="640" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-86" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;coords&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N8Ufnz0W6D04skS4zoCJ-87" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;adm_time&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
