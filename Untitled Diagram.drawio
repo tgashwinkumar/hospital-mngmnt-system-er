@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T16:02:55.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.5" etag="A5-sVAORpe6KSoZMKYph" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T16:19:09.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9UJW7h2q046wGVose__N" version="21.1.5" type="github">
   <diagram name="Page-1" id="XZOhUaSHe4gHAoxtu944">
-    <mxGraphModel>
+    <mxGraphModel dx="1750" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400" y="120" width="310" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-19">
+          <mxGeometry width="310" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-4" value="ESP 8266" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-19">
+          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="5xTEsbLAscIwPr2Fue_o-19" source="5xTEsbLAscIwPr2Fue_o-5" target="5xTEsbLAscIwPr2Fue_o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-5" value="I2C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-19">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="5xTEsbLAscIwPr2Fue_o-19" source="5xTEsbLAscIwPr2Fue_o-6" target="5xTEsbLAscIwPr2Fue_o-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-6" value="LCD Display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-19">
+          <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5xTEsbLAscIwPr2Fue_o-19" source="5xTEsbLAscIwPr2Fue_o-7" target="5xTEsbLAscIwPr2Fue_o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-7" value="Motor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-19">
+          <mxGeometry x="170" y="90" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-15" value="Device 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-19">
+          <mxGeometry x="120" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="120" width="190" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-20">
+          <mxGeometry width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-2" value="RFID Scanner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-20">
+          <mxGeometry x="35" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-3" value="ES 232" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-20">
+          <mxGeometry x="35" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="5xTEsbLAscIwPr2Fue_o-20" source="5xTEsbLAscIwPr2Fue_o-2" target="5xTEsbLAscIwPr2Fue_o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-16" value="Device 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-20">
+          <mxGeometry x="65" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-17" value="RFID Tag" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-20">
+          <mxGeometry x="52.5" y="360" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-networking-and-communication-glyph-24/24/Wifi_signals_wifi_zone_wireless_fidelity_wireless_internet_wireless_network-128.png" vertex="1" parent="5xTEsbLAscIwPr2Fue_o-20">
+          <mxGeometry x="60" y="280" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.834;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5xTEsbLAscIwPr2Fue_o-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="467" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5xTEsbLAscIwPr2Fue_o-21" target="5xTEsbLAscIwPr2Fue_o-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-21" value="AWS Dynamo DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-90" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.166;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5xTEsbLAscIwPr2Fue_o-8" target="5xTEsbLAscIwPr2Fue_o-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-26" value="Publish" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-27" value="Subscribe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-28" value="React JS Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-90" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTEsbLAscIwPr2Fue_o-30" value="Subscribe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
