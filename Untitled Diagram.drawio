@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T17:58:22.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JP_5opeC_Mnx8QP2PdKx" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T18:04:23.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ptdhKc94t0X1jVMPBUnS" version="21.7.5" type="github">
   <diagram name="Page-1" id="0AYOIU8UFdU1Bn_cYIXu">
     <mxGraphModel dx="2333" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="-100" y="132.5" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-20" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="610" width="290" height="320" as="geometry" />
+          <mxGeometry x="730" y="610" width="310" height="320" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="JGWyUceezzUZhylvgXF7-20" source="JGWyUceezzUZhylvgXF7-10" target="JGWyUceezzUZhylvgXF7-24">
           <mxGeometry relative="1" as="geometry" />
@@ -52,8 +52,8 @@
         <mxCell id="JGWyUceezzUZhylvgXF7-24" value="Store mappings of release to respective scraped content" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-20">
           <mxGeometry x="38.75" y="10" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JGWyUceezzUZhylvgXF7-107" value="Service 1: PIB Web Crawler cum Categorizer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=east;rotation=-90;fontStyle=1;fontSize=21;" vertex="1" parent="JGWyUceezzUZhylvgXF7-20">
-          <mxGeometry x="110" y="145" width="270" height="30" as="geometry" />
+        <mxCell id="JGWyUceezzUZhylvgXF7-107" value="Service 2: Mapper for content in regional media sites&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=east;rotation=-90;fontStyle=1;fontSize=21;" vertex="1" parent="JGWyUceezzUZhylvgXF7-20">
+          <mxGeometry x="100" y="145" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JGWyUceezzUZhylvgXF7-3" target="JGWyUceezzUZhylvgXF7-17">
           <mxGeometry relative="1" as="geometry" />
@@ -95,26 +95,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-58" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="970" width="360" height="530" as="geometry">
+          <mxGeometry x="700" y="980" width="350" height="530" as="geometry">
             <mxRectangle x="670" y="980" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JGWyUceezzUZhylvgXF7-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JGWyUceezzUZhylvgXF7-58" source="JGWyUceezzUZhylvgXF7-60">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130.2307692307695" y="237.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="JGWyUceezzUZhylvgXF7-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JGWyUceezzUZhylvgXF7-58" source="JGWyUceezzUZhylvgXF7-60" target="JGWyUceezzUZhylvgXF7-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-60" value="Fetch all the Youtube video content from listed channels" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-58">
-          <mxGeometry x="60.25" y="130" width="140" height="80" as="geometry" />
+          <mxGeometry x="41.879999999999995" y="130" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JGWyUceezzUZhylvgXF7-58" source="JGWyUceezzUZhylvgXF7-62" target="JGWyUceezzUZhylvgXF7-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-62" value="Consider one formatted press release&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-58">
-          <mxGeometry x="49" y="30" width="156.25" height="80" as="geometry" />
+          <mxGeometry x="33.75" y="30" width="156.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-67" value="Store mappings of content to respective press release" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-58">
-          <mxGeometry x="60.25" y="410" width="140" height="80" as="geometry" />
+          <mxGeometry x="41.879999999999995" y="420" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JGWyUceezzUZhylvgXF7-58" source="JGWyUceezzUZhylvgXF7-71" target="JGWyUceezzUZhylvgXF7-67">
           <mxGeometry relative="1" as="geometry" />
@@ -123,13 +121,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-71" value="Closed captions available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-58">
-          <mxGeometry x="90.25" y="235" width="80" height="80" as="geometry" />
+          <mxGeometry x="65.94" y="250" width="91.87" height="100" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JGWyUceezzUZhylvgXF7-58" source="JGWyUceezzUZhylvgXF7-72" target="JGWyUceezzUZhylvgXF7-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-72" value="Audio-to-text transcribing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-58">
-          <mxGeometry x="190" y="315" width="130" height="70" as="geometry" />
+          <mxGeometry x="170" y="340" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JGWyUceezzUZhylvgXF7-109" value="Service 4: Mapper for video content from listed channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=east;rotation=-90;fontStyle=1;fontSize=21;" vertex="1" parent="JGWyUceezzUZhylvgXF7-58">
+          <mxGeometry x="140" y="155" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JGWyUceezzUZhylvgXF7-67" target="JGWyUceezzUZhylvgXF7-17">
           <mxGeometry relative="1" as="geometry" />
@@ -178,6 +179,9 @@
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-95" value="Notify concerned PIB officers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JGWyUceezzUZhylvgXF7-78">
           <mxGeometry x="425" y="155" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JGWyUceezzUZhylvgXF7-110" value="&lt;h1&gt;360 Degree Feedback System for Govt. of India related new stories&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="JGWyUceezzUZhylvgXF7-78">
+          <mxGeometry x="30" y="35" width="330" height="175" as="geometry" />
         </mxCell>
         <mxCell id="JGWyUceezzUZhylvgXF7-104" value="Data Sore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="615" y="870" width="60" height="30" as="geometry" />
