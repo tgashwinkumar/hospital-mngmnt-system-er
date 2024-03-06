@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T16:46:17.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.2" etag="sAycaGWUZM2C9LYDmZ-S" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T17:04:01.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="MGNURakpht3r5_6yvuOl" version="24.0.2" type="github">
   <diagram name="Page-1" id="gcDXCAm0x4AFQ53RrcQE">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-1" value="Data Processing" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="310" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-5" target="GzxcZLsvCSKKQ_b5AqoA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-5" value="Filter sparse data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="170" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-6" target="GzxcZLsvCSKKQ_b5AqoA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-6" value="Create RandomSampler for train dataset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="160" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-7" target="GzxcZLsvCSKKQ_b5AqoA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-7" value="Train-valid-test split" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-8" target="GzxcZLsvCSKKQ_b5AqoA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-8" target="GzxcZLsvCSKKQ_b5AqoA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-8" value="Generate masks for tumor segments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="20" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-9" target="GzxcZLsvCSKKQ_b5AqoA-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-9" value="Aggregate four types of tumors to single 3d mask image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="170" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-10" target="GzxcZLsvCSKKQ_b5AqoA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-10" value="Slice 3D object to 2D numpy images&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-1" source="GzxcZLsvCSKKQ_b5AqoA-11" target="GzxcZLsvCSKKQ_b5AqoA-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-11" value="Aggregate two types of scans&amp;nbsp;to single 4d pytorch tensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="20" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-22" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-1">
+          <mxGeometry x="145" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-2" value="Training model" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="410" y="40" width="310" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-2" source="GzxcZLsvCSKKQ_b5AqoA-18" target="GzxcZLsvCSKKQ_b5AqoA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-18" value="Build single batch Pytorch Dataloader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="25" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-2" source="GzxcZLsvCSKKQ_b5AqoA-19" target="GzxcZLsvCSKKQ_b5AqoA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-19" value="Enable GPU for environment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="170" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-2" source="GzxcZLsvCSKKQ_b5AqoA-20" target="GzxcZLsvCSKKQ_b5AqoA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-20" value="Build UNet Model with input: 2 chnls to output: 4 chnls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="30" y="270" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-26" value="Weight Initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-2" source="GzxcZLsvCSKKQ_b5AqoA-27" target="GzxcZLsvCSKKQ_b5AqoA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-27" value="Define loss function, optimizers, epochs, LR, checkpnt interval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-2" source="GzxcZLsvCSKKQ_b5AqoA-28" target="GzxcZLsvCSKKQ_b5AqoA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-28" value="Run model through epochs with train data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="170" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-29" value="Validate the model with test data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GzxcZLsvCSKKQ_b5AqoA-2">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GzxcZLsvCSKKQ_b5AqoA-2" source="GzxcZLsvCSKKQ_b5AqoA-26" target="GzxcZLsvCSKKQ_b5AqoA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.704;entryDx=0;entryDy=0;exitX=0.559;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;shape=flexArrow;strokeWidth=1;shadow=0;textShadow=0;" edge="1" parent="1" source="GzxcZLsvCSKKQ_b5AqoA-3" target="GzxcZLsvCSKKQ_b5AqoA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-3" value="BraTS 2020 Dataset" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzxcZLsvCSKKQ_b5AqoA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GzxcZLsvCSKKQ_b5AqoA-22" target="GzxcZLsvCSKKQ_b5AqoA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
