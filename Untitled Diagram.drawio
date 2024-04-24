@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T05:57:43.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="cdiT-LdZZ3ldVA9P3Bl2" version="24.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-24T06:25:40.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="72VZhW3NP8VEVcbA_NyW" version="24.2.8" type="github" pages="2">
   <diagram name="Page-1" id="gcDXCAm0x4AFQ53RrcQE">
     <mxGraphModel dx="1742" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,11 +117,55 @@
         <mxCell id="GzxcZLsvCSKKQ_b5AqoA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GzxcZLsvCSKKQ_b5AqoA-22" target="GzxcZLsvCSKKQ_b5AqoA-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pD99O_sQi7r6Lwbuvmdn-1" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pD99O_sQi7r6Lwbuvmdn-1" value="" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="90" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pD99O_sQi7r6Lwbuvmdn-3" value="Brats2020 Dataset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pD99O_sQi7r6Lwbuvmdn-3" value="Brats2020 Dataset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-1" value="Survival Prediction" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="750" y="40" width="310" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="6CykZpzGt-ZVRGM_JS4x-1" source="6CykZpzGt-ZVRGM_JS4x-3" target="6CykZpzGt-ZVRGM_JS4x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-3" value="Feature engineering" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6CykZpzGt-ZVRGM_JS4x-1">
+          <mxGeometry x="25" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="6CykZpzGt-ZVRGM_JS4x-1" source="6CykZpzGt-ZVRGM_JS4x-5" target="6CykZpzGt-ZVRGM_JS4x-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-5" value="Normalize data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6CykZpzGt-ZVRGM_JS4x-1">
+          <mxGeometry x="170" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.243;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6CykZpzGt-ZVRGM_JS4x-1" source="6CykZpzGt-ZVRGM_JS4x-7" target="6CykZpzGt-ZVRGM_JS4x-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-7" value="Train/Test Split" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6CykZpzGt-ZVRGM_JS4x-1">
+          <mxGeometry x="30" y="290" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="6CykZpzGt-ZVRGM_JS4x-1" source="6CykZpzGt-ZVRGM_JS4x-12" target="6CykZpzGt-ZVRGM_JS4x-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-12" value="Hyperparameter tuning with GridSearchCV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6CykZpzGt-ZVRGM_JS4x-1">
+          <mxGeometry x="170" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-13" value="Model Evaluation and Benchmarking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6CykZpzGt-ZVRGM_JS4x-1">
+          <mxGeometry x="30" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.655;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="6CykZpzGt-ZVRGM_JS4x-1" source="6CykZpzGt-ZVRGM_JS4x-15" target="6CykZpzGt-ZVRGM_JS4x-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-15" value="Model Implementation using Random Forest, MLP, SVM, KNN Classifiers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6CykZpzGt-ZVRGM_JS4x-1">
+          <mxGeometry x="25" y="190" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CykZpzGt-ZVRGM_JS4x-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GzxcZLsvCSKKQ_b5AqoA-22" target="6CykZpzGt-ZVRGM_JS4x-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="550" />
+              <mxPoint x="842" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
